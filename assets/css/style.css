@@ -4,6 +4,9 @@ body {
     padding: 0;
     font-family: 'Abril Fatface', cursive;
 }
+input {
+    border: none;
+}
 
 #firstResult, #operator, #secondResult {
     height: 10rem;
