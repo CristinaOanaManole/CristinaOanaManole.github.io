@@ -8,16 +8,21 @@ input {
     border: none;
 }
 
-#firstResult, #operator, #secondResult {
+#container {
+    width: 75%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#firstResult, #operator, #secondResult, #finalResult {
     height: 10rem;
     font-size: 1.5rem;
     border: none;
 }
 
-#finalResult {
-    height: 3rem;
-    font-size: 1.5rem;
-    border: none;
+.finalResult {
+    color: yellow;
 }
 
 #operator {
@@ -35,5 +40,5 @@ input {
 
 #cancel {
     color: white;
-    background-color: orange;
+    background-color: salmon;
 }

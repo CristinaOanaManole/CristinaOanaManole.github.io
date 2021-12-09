@@ -1,3 +1,4 @@
+// Creation des variables pour les ciffres
 let seven = document.getElementById("seven");
 let eight = document.getElementById("eight");
 let nine = document.getElementById("nine");
@@ -16,7 +17,7 @@ let decimalPoint = document.getElementById("decimalPoint");
 let division = document.getElementById("division");
 let total = document.getElementById("egal");
 
-
+// Creation des variables pour l'affichage des operateurs et le resultat
 let numberOne = document.getElementById("firstResult");
 let operator = document.getElementById("operator");
 let numberTwo = document.getElementById("secondResult");
@@ -24,6 +25,7 @@ let finalResult = document.getElementById("finalResult");
 
 let resultat = numberOne;
 
+// Function sur le click d'un numéro
 zero.onclick = function () {
     resultat.value += zero.value;
 }
@@ -64,6 +66,7 @@ nine.onclick = function () {
     resultat.value += nine.value;
 }
 
+// Function des operateurs 
 multiplication.onclick = function () {
     operator.innerText = multiplication.value;
     resultat = numberTwo;
@@ -96,6 +99,7 @@ decimalPoint.onclick = function () {
     resultat.value += decimalPoint.value;
 }
 
+// Function onclick sur total
 total.onclick = function () {
     if (operator.innerText == add.value) {
         finalResult.value = parseInt(numberOne.value) + parseInt(numberTwo.value);
