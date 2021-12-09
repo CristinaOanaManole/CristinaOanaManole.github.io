@@ -3,7 +3,12 @@
 ## Calculatrice simple
 ### En binôme avec Laurie 
 
+
+![](./img/gihycat.gif)
+
 ### Langage utilisé:
 <table>
-<tr>Javascript</tr>
+<tr>
+<td>Javascript</td>
+</tr>
 </table>
