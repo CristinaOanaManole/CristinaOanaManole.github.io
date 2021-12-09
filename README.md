@@ -4,7 +4,7 @@
 ### En binôme avec Laurie 
 
 
-![](./img/gihycat.gif)
+![](./assets/img/giphycat.gif)
 
 ### Langage utilisé:
 <table>
