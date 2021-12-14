@@ -6,6 +6,7 @@
 
 ![](./assets/img/giphycat.gif)
 
+![](picture.png)
 ### Langage utilisé:
 <table>
 <tr>
